@@ -1,0 +1,48 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+button {
+    font-size: 1.5rem;
+}
+
+#contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+textarea {    
+    margin: 1rem 0;
+    height: 10rem;
+    font-family: sans-serif;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+}
+
+label {
+    margin: 1rem 0;
+    color: red;
+}
+
+#limpiar {
+    margin: 1rem 0;
+}
